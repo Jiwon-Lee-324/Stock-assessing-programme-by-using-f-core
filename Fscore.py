@@ -341,13 +341,13 @@ accruals = this_op_cashflow / this_total_asset
 
 
 if accruals > this_roa :
-    print("Operating Cash Flow/Total Assets is higher than ROA in the current year","(+1point)")
+    print("(Operating Cash Flow/Total Assets) is higher than ROA in the current year","(+1point)")
     count = count + 1
 else:
-    print("Operating Cash Flow/Total Assets is lower than ROA in the current year",'(+0point)')
+    print("(Operating Cash Flow/Total Assets) is lower than ROA in the current year",'(+0point)')
 
 
 
-# Fanal score
+# Final score
 
-print("final score is",count,'/9')
+print("final score is",count,'/8')
