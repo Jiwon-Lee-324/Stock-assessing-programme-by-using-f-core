@@ -1,4 +1,4 @@
-F-score programme
+Fscore_instructions
 
 1. What is F-score programme?
 F-score programme is assessing strength of company’s financial position by following Piotroski F-Score's Calculation procedure.
