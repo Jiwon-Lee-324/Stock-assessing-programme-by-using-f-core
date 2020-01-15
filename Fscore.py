@@ -57,6 +57,7 @@ else:
 
 
 total_revenue =soup.findAll("div",class_='rw-expnded')[0]
+#print(total_revenue)
 lst_revenue = list()
 for link in total_revenue:
     lst = link.decode()
@@ -215,6 +216,7 @@ last_total_current_asset = lst_total_current_asset[1]
 lst_total_current_liabilities= list()
 total_current_liabilities = list()
 
+
 total_current_liabilities =soup_balance.findAll("div",class_='rw-expnded')[30]
 
 for link in total_current_liabilities:
@@ -347,7 +349,18 @@ else:
     print("(Operating Cash Flow/Total Assets) is lower than ROA in the current year",'(+0point)')
 
 
+# Change in the number of shares
+#
+
+#lst_commonstock = list()
+#total_lst_commonstock = list()
+
+#total_current_asset =soup_balance.findAll("div",class_='rw-expnded')[9]
+
+
 
 # Final score
 
 print("final score is",count,'/8')
+
+
