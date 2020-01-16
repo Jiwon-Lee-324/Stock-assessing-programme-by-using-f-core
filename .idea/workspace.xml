@@ -11,12 +11,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fscore.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="353" lean-forward="true" selection-start-line="353" selection-end-line="353" />
+            <state relative-caret-position="-11">
+              <caret line="381" selection-start-line="381" selection-end-line="381" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -58,7 +58,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -70,6 +69,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,8 +178,8 @@
     <entry file="file://$PROJECT_DIR$/upload_fscore.py" />
     <entry file="file://$PROJECT_DIR$/Fscore.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="353" lean-forward="true" selection-start-line="353" selection-end-line="353" />
+        <state relative-caret-position="-11">
+          <caret line="381" selection-start-line="381" selection-end-line="381" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

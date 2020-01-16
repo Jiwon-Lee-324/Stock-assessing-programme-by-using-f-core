@@ -190,11 +190,11 @@ lst_total_current_asset = list()
 total_current_asset = list()
 
 total_current_asset =soup_balance.findAll("div",class_='rw-expnded')[9]
-
+#print(total_current_asset)
 for link in total_current_asset:
     lst = link.decode()
     lst = lst.replace('>', '\n>').rsplit()
-
+   # print(lst)
     for i in lst:
         if not i.endswith("</span"):
             continue
@@ -205,8 +205,10 @@ for link in total_current_asset:
         sppos = i.find("</span", atpos)
 
         host = i[atpos + 1:sppos]
+    #    print(host)
         host = host.replace(',', '')
         host = int(host)
+
 
         lst_total_current_asset.append(host)
 this_total_current_asset = lst_total_current_asset[0]
@@ -350,17 +352,50 @@ else:
 
 
 # Change in the number of shares
-#
+# (1 point if no new shares were issued during the last year);
 
-#lst_commonstock = list()
-#total_lst_commonstock = list()
 
-#total_current_asset =soup_balance.findAll("div",class_='rw-expnded')[9]
+lst_commonstock = list()
+total_lst_commonstock = list()
+
+total_current_asset =soup_balance.findAll("div",class_='rw-expnded')[39]
+for link in total_current_asset:
+    lst = link.decode()
+    lst = lst.replace('>', '\n>').rsplit()
+    for i in lst:
+        if not i.endswith("</span"):
+            continue
+
+        if not i.startswith('>'):
+            continue
+        atpos = i.find('>')
+        sppos = i.find("</span", atpos)
+
+        host = i[atpos + 1:sppos]
+
+        host = host.replace(',', '')
+
+        host = int(host)
+        lst_commonstock.append(host)
+this_commonstock = lst_commonstock[0]
+last_commonstock = lst_commonstock[1]
+
+Change_shares = this_commonstock - last_commonstock
+
+
+
+
+
+if Change_shares <= 0 :
+    print("No new shares were issued during the last year","(+1point)")
+    count = count + 1
+else:
+    print("New shares were issued",'(+0point)')
 
 
 
 # Final score
 
-print("final score is",count,'/8')
+print("final score is",count,'/9')
 
 

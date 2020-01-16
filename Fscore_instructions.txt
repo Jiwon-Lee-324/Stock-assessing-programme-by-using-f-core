@@ -30,5 +30,5 @@ This programme is made by python.
 #It is only for coding project not real investment. 
 #If there is no data in Yahoo finance, you will has an error. 
   Please check that there are all pages such as Income statement, Balance sheet and Cash flow.
-#It has not reflected 'Change in the number of shares' yet.
+
 
