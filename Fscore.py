@@ -57,7 +57,7 @@ else:
 
 
 total_revenue =soup.findAll("div",class_='rw-expnded')[0]
-#print(total_revenue)
+
 lst_revenue = list()
 for link in total_revenue:
     lst = link.decode()
@@ -190,7 +190,7 @@ lst_total_current_asset = list()
 total_current_asset = list()
 
 total_current_asset =soup_balance.findAll("div",class_='rw-expnded')[9]
-#print(total_current_asset)
+
 for link in total_current_asset:
     lst = link.decode()
     lst = lst.replace('>', '\n>').rsplit()
@@ -263,8 +263,8 @@ total_non_current_liabilities =soup_balance.findAll("div",class_='rw-expnded')[3
 for link in total_non_current_liabilities:
     lst = link.decode()
     lst = lst.replace('>', '\n>').rsplit()# 줄나누기
-    #print(lst)
-    #lst2 = re.findall('^>.*</span', lst)
+
+
     for i in lst:
         if not i.endswith("</span"):
             continue
