@@ -354,12 +354,13 @@ else:
 # Change in the number of shares
 # (1 point if no new shares were issued during the last year);
 
-
+##user function Testing
 lst_commonstock = list()
 total_lst_commonstock = list()
-
+a = list()
 total_current_asset =soup_balance.findAll("div",class_='rw-expnded')[39]
-for link in total_current_asset:
+total_current_asset = a
+for link in a:
     lst = link.decode()
     lst = lst.replace('>', '\n>').rsplit()
     for i in lst:

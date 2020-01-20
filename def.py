@@ -1,8 +1,8 @@
 #define
 
-def add(link,total_current_asset):
+def add(link,a):
 
-    for link in total_current_asset:
+    for link in a:
         lst = link.decode()
         lst = lst.replace('>', '\n>').rsplit()
         for i in lst:
