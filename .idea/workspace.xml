@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7e34c0a-39e9-4119-be19-d741e78a9fbe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Fscore.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fscore.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/def.py" beforeDir="false" afterPath="$PROJECT_DIR$/def.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fscore.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="357" column="22" selection-start-line="357" selection-start-column="22" selection-end-line="357" selection-end-column="22" />
+            <state relative-caret-position="56">
+              <caret line="383" column="10" lean-forward="true" selection-start-line="383" selection-start-column="10" selection-end-line="383" selection-end-column="10" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/def.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            <state relative-caret-position="209">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -48,16 +47,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/upload_fscore.py" />
-        <option value="$PROJECT_DIR$/def.py" />
         <option value="$PROJECT_DIR$/Fscore.py" />
+        <option value="$PROJECT_DIR$/def.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="681" />
-    <option name="y" value="162" />
-    <option name="width" value="1563" />
-    <option name="height" value="918" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="949" />
+    <option name="width" value="980" />
+    <option name="height" value="521" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -158,9 +156,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="633" y="0" width="653" height="347" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19936457" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.40680712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -183,15 +181,15 @@
     <entry file="file://$PROJECT_DIR$/upload_fscore.py" />
     <entry file="file://$PROJECT_DIR$/def.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Fscore.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="357" column="22" selection-start-line="357" selection-start-column="22" selection-end-line="357" selection-end-column="22" />
+        <state relative-caret-position="56">
+          <caret line="383" column="10" lean-forward="true" selection-start-line="383" selection-start-column="10" selection-end-line="383" selection-end-column="10" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

@@ -1,6 +1,7 @@
 #define
 
 def add(link,a):
+    lst_a = list()
 
     for link in a:
         lst = link.decode()
@@ -19,4 +20,4 @@ def add(link,a):
             host = host.replace(',', '')
 
             host = int(host)
-            lst_commonstock.append(host)
+            lst_a.append(host)
