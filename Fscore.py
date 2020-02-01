@@ -42,6 +42,7 @@ for link in test:
         host = i[atpos + 1:sppos]
         host = host.replace(',', '')
         host = int(host)
+        print(host)
         lst3.append(host)
 
 gp = lst3[1]-lst3[2]
@@ -359,10 +360,11 @@ lst_commonstock = list()
 total_lst_commonstock = list()
 a = list()
 total_current_asset =soup_balance.findAll("div",class_='rw-expnded')[39]
-total_current_asset = a
-for link in a:
+
+for link in total_current_asset:
     lst = link.decode()
-    lst = lst.replace('>', '\n>').rsplit()
+    lst = lst.replace('>', '\n>').rsplit()# 줄나누기
+
     for i in lst:
         if not i.endswith("</span"):
             continue
@@ -370,12 +372,11 @@ for link in a:
         if not i.startswith('>'):
             continue
         atpos = i.find('>')
+
         sppos = i.find("</span", atpos)
 
         host = i[atpos + 1:sppos]
-
         host = host.replace(',', '')
-
         host = int(host)
         lst_commonstock.append(host)
 this_commonstock = lst_commonstock[0]
